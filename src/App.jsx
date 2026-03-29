@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router'
-import HomePage from './routes/HomePage'
-import AllWords from './routes/AllWords'
-import MemorizedWords from './routes/MemorizedWords'
-import NotFound404 from './routes/NotFound404'
-import HaveToRemember from './routes/HaveToRemember'
+import HomePage from './components/HomePage'
+import AllWords from './components/AllWords'
+import MemorizedWords from './components/MemorizedWords'
+import NotFound404 from './components/NotFound404'
+import HaveToRemember from './components/HaveToRemember'
 
 import { createBrowserRouter } from 'react-router-dom'
 
