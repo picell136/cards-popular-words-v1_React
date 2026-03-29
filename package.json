@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "http://picell136.github.io/cards-popular-words-v1",
+  "homepage": "http://picell136.github.io/cards-popular-words-v1/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
