@@ -10,7 +10,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/cards-popular-words-v1">
+    <BrowserRouter basename="/cards-popular-words-v1_React">
       <App />
     </BrowserRouter>
   </StrictMode>
